@@ -28,7 +28,7 @@ var keys = require('stb-keys');
 In some event handler:
 ```js
 if ( event.code === keys.ok ) {
-	...
+    ...
 }
 ```
 
