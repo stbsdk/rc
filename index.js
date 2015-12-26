@@ -12,7 +12,6 @@
  *  +1000 | shift key pressed
  *  +2000 | alt key pressed
  *
- * @module stb/keys
  * @author Stanislav Kalashnik <sk@infomir.eu>
  * @license GNU GENERAL PUBLIC LICENSE Version 3
  */
