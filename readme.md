@@ -5,6 +5,7 @@ STB SDK keys codes
 [![Dependencies Status](https://img.shields.io/david/stbsdk/keys.svg?style=flat-square)](https://david-dm.org/stbsdk/keys)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stb)
 
+
 Remote controls and keyboards generate key codes used in framework applications.
 At the moment `keypress` and `keydown` events are emitted for the same keys (for both printable and non-printable characters).
 Key code is its default key code from event plus 1000 in case shift key pressed and plus 2000 in case alt key pressed.
