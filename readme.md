@@ -11,14 +11,14 @@ At the moment `keypress` and `keydown` events are emitted for the same keys (for
 Key code is its default key code from event plus 1000 in case shift key pressed and plus 2000 in case alt key pressed.
 
 
-## Installation
+## Installation ##
 
 ```bash
 npm install stb-keys
 ```
 
 
-## Usage
+## Usage ##
 
 Add to the scope:
 
@@ -34,19 +34,19 @@ if ( event.code === keys.ok ) {
 ```
 
 
-## Debug mode
+## Debug mode ##
 
 > There is a global var `DEBUG` which activates additional consistency checks and protection logic not available in release mode.
 
 In debug mode the object is exposed to the global namespace as `window.keys`.
 
 
-## Contribution
+## Contribution ##
 
 If you have any problem or suggestion please open an issue [here](https://github.com/stbsdk/keys/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
-## License
+## License ##
 
 `stb-keys` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
