@@ -16,12 +16,11 @@
     },
     "keywords": [
         "stb",
-        "sdk",
-        "device",
-        "tv",
-        "devkit",
+        "stbsdk",
         "framework",
-        "keys"
+        "keyboard",
+        "keys",
+        "codes"
     ],
     "license": "GPL-3.0"
 }
