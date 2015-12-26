@@ -3,7 +3,7 @@ STB SDK keys codes
 
 [![NPM version](https://img.shields.io/npm/v/stb-keys.svg?style=flat-square)](https://www.npmjs.com/package/stb-keys)
 [![Dependencies Status](https://img.shields.io/david/stbsdk/keys.svg?style=flat-square)](https://david-dm.org/stbsdk/keys)
-[![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stb)
+[![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stbsdk)
 
 
 Remote controls and keyboards generate key codes used in framework applications.
