@@ -14,9 +14,6 @@
     "dependencies": {
         "spa-keys": "spasdk/keys"
     },
-    "devDependencies": {
-        "jsdoc": "3.*.*"
-    },
     "keywords": [
         "stb",
         "stbsdk",
