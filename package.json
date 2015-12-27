@@ -11,6 +11,9 @@
         "lint": "eslint *.js",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
+    "dependencies": {
+        "spa-keys": "spasdk/keys"
+    },
     "devDependencies": {
         "jsdoc": "3.*.*"
     },
