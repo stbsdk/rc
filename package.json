@@ -12,7 +12,7 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "spa-keys": "spasdk/keys"
+        "spa-keys": "1.*.*"
     },
     "keywords": [
         "stb",
