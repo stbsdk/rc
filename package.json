@@ -1,7 +1,7 @@
 {
-    "name": "stb-keys",
+    "name": "stb-rc",
     "version": "1.3.0",
-    "description": "STB SDK keys codes.",
+    "description": "STB remote control management and key codes.",
     "author": {
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
@@ -11,14 +11,13 @@
         "lint": "eslint *.js",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
-    "dependencies": {
-        "spa-keys": "spasdk/keys"
-    },
+    "dependencies": {},
     "keywords": [
         "stb",
         "stbsdk",
         "framework",
-        "keyboard",
+        "remote",
+        "control",
         "keys",
         "codes"
     ],

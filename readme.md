@@ -1,8 +1,8 @@
-Keyboard keys codes
-===================
+Remote control
+==============
 
-[![NPM version](https://img.shields.io/npm/v/stb-keys.svg?style=flat-square)](https://www.npmjs.com/package/stb-keys)
-[![Dependencies Status](https://img.shields.io/david/stbsdk/keys.svg?style=flat-square)](https://david-dm.org/stbsdk/keys)
+[![NPM version](https://img.shields.io/npm/v/stb-rc.svg?style=flat-square)](https://www.npmjs.com/package/stb-rc)
+[![Dependencies Status](https://img.shields.io/david/stbsdk/rc.svg?style=flat-square)](https://david-dm.org/stbsdk/rc)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stbsdk)
 
 
@@ -14,7 +14,7 @@ Key code is its default key code from event plus 1000 in case shift key pressed 
 ## Installation ##
 
 ```bash
-npm install stb-keys
+npm install stb-rc
 ```
 
 
@@ -23,12 +23,12 @@ npm install stb-keys
 Add to the scope:
 
 ```js
-var keys = require('stb-keys');
+var rc = require('stb-rc');
 ```
 
 In some event handler:
 ```js
-if ( event.code === keys.ok ) {
+if ( rc.getCode(event) === rc.codes.ok ) {
     ...
 }
 ```
@@ -36,10 +36,10 @@ if ( event.code === keys.ok ) {
 
 ## Contribution ##
 
-If you have any problem or suggestion please open an issue [here](https://github.com/stbsdk/keys/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/stbsdk/rc/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
 ## License ##
 
-`stb-keys` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
+`stb-rc` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
