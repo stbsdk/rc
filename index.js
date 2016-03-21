@@ -74,6 +74,7 @@ module.exports = {
         mute:         2192,
         clock:        2032,
         audio:        2071, // Alt+G
+        standby:      2074, // Alt+J
         keyboard:     2076  // Alt+L
     }
 };
