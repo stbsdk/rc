@@ -6,7 +6,10 @@
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
     },
-    "repository": "stbsdk/keys",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stbsdk/keys.git"
+    },
     "scripts": {
         "lint": "eslint *.js",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
