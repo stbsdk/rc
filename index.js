@@ -59,11 +59,12 @@ module.exports = {
         set:          120,  // F9
         tv:           121,  // F10
         menu:         122,  // F11
-        web:          123,  // F12
-        mic:          2032,
+        app:          123,  // F12
         rewind:       2066, // Alt+B
         forward:      2070, // Alt+F
-        app:          2076, // Alt+L
+        audio:        2071, // Alt+G
+        standby:      2074, // Alt+J
+        keyboard:     2076, // Alt+L
         usbMounted:   2080, // Alt+P
         usbUnmounted: 2081, // Alt+Q
         playPause:    2082, // Alt+R
@@ -71,10 +72,6 @@ module.exports = {
         power:        2085, // Alt+U
         record:       2087, // Alt+W
         info:         2089, // Alt+Y
-        mute:         2192,
-        clock:        2032,
-        audio:        2071, // Alt+G
-        standby:      2074, // Alt+J
-        keyboard:     2076  // Alt+L
+        mute:         2192
     }
 };
