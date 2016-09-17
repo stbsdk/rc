@@ -1,6 +1,7 @@
 Remote control
 ==============
 
+[![Build Status](https://img.shields.io/travis/stbsdk/rc.svg?style=flat-square)](https://travis-ci.org/stbsdk/rc)
 [![NPM version](https://img.shields.io/npm/v/stb-rc.svg?style=flat-square)](https://www.npmjs.com/package/stb-rc)
 [![Dependencies Status](https://img.shields.io/david/stbsdk/rc.svg?style=flat-square)](https://david-dm.org/stbsdk/rc)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stbsdk)

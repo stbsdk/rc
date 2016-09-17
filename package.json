@@ -11,10 +11,12 @@
         "url": "https://github.com/stbsdk/keys.git"
     },
     "scripts": {
-        "lint": "eslint *.js",
+        "lint": "eslint .",
+        "test": "npm run lint",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "devDependencies": {
+        "eslint": "2.*.*",
         "stb-eslint-config": "stbsdk/eslint-config"
     },
     "keywords": [
