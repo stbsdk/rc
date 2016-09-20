@@ -16,7 +16,7 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "devDependencies": {
-        "eslint": "2.*.*",
+        "eslint": "3.*.*",
         "stb-eslint-config": "stbsdk/eslint-config"
     },
     "keywords": [
